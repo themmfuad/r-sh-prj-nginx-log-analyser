@@ -15,26 +15,26 @@ log-analyser <logfile>
 
 Example output:
 ```bash
-Top 5 IP addresses with the most requests:
-45.76.135.253 - 1000 requests
-142.93.143.8 - 600 requests
-178.128.94.113 - 50 requests
-43.224.43.187 - 30 requests
-178.128.94.113 - 20 requests
-
-Top 5 most requested paths:
-/api/v1/users - 1000 requests
-/api/v1/products - 600 requests
-/api/v1/orders - 50 requests
-/api/v1/payments - 30 requests
-/api/v1/reviews - 20 requests
-
-Top 5 response status codes:
-200 - 1000 requests
-404 - 600 requests
-500 - 50 requests
-401 - 30 requests
-304 - 20 requests
+Top 5 IP addresses with the most requests:
+178.128.94.113 - 1087 requests
+142.93.136.176 - 1087 requests
+138.68.248.85 - 1087 requests
+159.89.185.30 - 1086 requests
+86.134.118.70 - 277 requests
+
+Top 5 most requested paths:
+/v1-health - 4560 requests
+/ - 270 requests
+/v1-me - 232 requests
+/v1-list-workspaces - 127 requests
+/v1-list-timezone-teams - 75 requests
+
+Top 5 response status codes:
+200 - 5740 requests
+404 - 937 requests
+304 - 621 requests
+400 - 260 requests
+403 - 23 requests
 ```
 
 
